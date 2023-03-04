@@ -27,7 +27,7 @@ public class EasyTransferService implements MoneyTransfer {
 
     /**
      *
-     * @param moneyTransferRequest
+     * @param moneyTransferRequest {@link MoneyTransferRequest}
      * @return
      * @throws AccountNotFoundException
      * @throws SameAccountMoneyTransferException
