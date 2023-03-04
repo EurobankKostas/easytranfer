@@ -37,7 +37,7 @@ public class TransferAmountValidator {
     }
 
     /**
-     * @param accountId             {@link Account#getId()},the accountId of source account
+     * @param accountId             {@link Account#getAccountId()} ()},the accountId of source account
      * @param accountBalance        {@link Account#getBalance()}, balance of the source account
      * @param amountToBeTransferred {@link MoneyTransferRequest#getAmount()}, transaction amount
      * @throws SourceAccountHasInsufficientFundsException if source account contains insufficient funds
