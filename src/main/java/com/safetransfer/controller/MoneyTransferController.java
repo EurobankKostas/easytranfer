@@ -1,6 +1,5 @@
 package com.safetransfer.controller;
 
-
 import com.safetransfer.dto.ErrorInfo;
 import com.safetransfer.dto.MoneyTransferRequest;
 import com.safetransfer.dto.MoneyTransferResponse;
