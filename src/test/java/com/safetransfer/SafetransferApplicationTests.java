@@ -60,7 +60,7 @@ class SafetransferApplicationTests {
                 .sourceAccountId(UUID.fromString("123e4567-e89b-42d3-a456-556642440019"))
                 .targetAccountId(UUID.fromString("123e4567-e89b-42d3-a456-556642440013"))
                 .currency("EUR")
-                .amount(BigDecimal.valueOf(801)).build();
+                .amount(BigDecimal.valueOf(10000)).build();
         assertThrows(SourceAccountHasInsufficientFundsException.class, () -> easyTransferService.executeMoneyTransfer(moneyTransferRequest));
     }
 
